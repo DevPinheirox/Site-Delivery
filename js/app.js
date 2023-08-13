@@ -505,7 +505,7 @@ cardapio.metodos = {
 
                     // converte a URL
                     let encode = encodeURI(texto);
-                    let URL = `https://wa.me/${CELULAR_EMPRESA}?text=${encode}`;
+                    let URL = `https://wa.me/${5511962893182}?text=${encode}`;
 
                     $("#btnEtapaResumo").attr('href', URL);
 
@@ -523,7 +523,7 @@ cardapio.metodos = {
         var texto = 'Olá! gostaria de fazer uma *reserva*';
 
         let encode = encodeURI(texto);
-        let URL = `https://wa.me/${CELULAR_EMPRESA}?text=${encode}`;
+        let URL = `https://wa.me/${5511962893182}?text=${encode}`;
 
         $("#btnReserva").attr('href', URL);
 
@@ -532,7 +532,7 @@ cardapio.metodos = {
     // carrega o botão de ligar
     carregarBotaoLigar: () => {
 
-        $("#btnLigar").attr('href', `tel:${CELULAR_EMPRESA}`);
+        $("#btnLigar").attr('href', `tel:${5511962893182}`);
 
     },
 
